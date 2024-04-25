@@ -1,5 +1,12 @@
 #!/bin/bash
 
+set -euo pipefail
+
+abort() {
+  printf "%s\n" "$@" >&2
+  exit 1
+}
+
 ###############################################################################
 #    Licensed under the Apache License, Version 2.0 (the "License");
 #    you may not use this file except in compliance with the License.
@@ -11,6 +18,11 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 ###############################################################################
+
+if [ -z "${BASH_VERSION:-}" ]
+then
+  abort "Bash is required to interpret this script."
+fi
 
 echo "=== Apache DevLake Installation ==="
 

@@ -114,7 +114,7 @@ See [this list](https://devlake.apache.org/docs/Metrics) of metrics on the DevLa
 
 ## Feedback and Contributions
 
-We value your feedback and welcome contributions to improve this guide. Please see our [contribution guidelines](https://link-to-contribution-guidelines).
+We value your feedback and welcome contributions to improve this guide. Please see our [contribution guidelines](../../../../CONTRIBUTING.md).
 
 ---
 
